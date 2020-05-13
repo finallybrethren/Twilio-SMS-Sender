@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 
-# https://www.twilio.com/sms
-# this is an sms bomber/spammer using the twilio sms api 
-# in order to send text messages to any mobile number.
-# twilio provides basic code so all I did was modify it
-# by adding input fields and a while-loop to make it a bomber
-# and figlet because hacker tools are supposed to have cool ascii art. 
-
 import getpass
 from twilio.rest import Client
 import subprocess
